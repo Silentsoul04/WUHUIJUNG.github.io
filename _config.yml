@@ -1,17 +1,17 @@
 # Site settings
-title: By Blog
-SEOTitle: Mr.R的博客 | By Blog
+title: WUJINLIN
+SEOTitle: WUJINLIN的博客 | WUJINLIN
 header-img: img/post-bg-desk.jpg
-email: 2584110147@qq.com
-description: "Every failure is leading towards success."
-keyword: "By, By Blog, Mr.R的博客, DarkEyeR, 陈承曦, CTF, WEB"
-url: "http://DarkEyeR.github.io"          # your host, for absolute URL
+email: 1809070261@qq.com
+description: "The beginning of every failure is success."
+keyword: "WUJINLIN, WHJ的博客,CTF, WEB"
+url: "http://WUHUIJUNG.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/darkeyer/darkeyer.github.io.git" # you code repository
+github_repo: "https://github.com/SecWiki/ctf-hub" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "If you don’t work hard, others don’t know how to pull!"
 sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
