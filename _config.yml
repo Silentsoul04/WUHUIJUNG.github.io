@@ -11,7 +11,7 @@ github_repo: "https://github.com/SecWiki/ctf-hub" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "If you don’t work hard, others don’t know how to pull!"
+sidebar-about-description: "I don’t work hard, how can others help you!"
 sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -96,24 +96,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "lyt's Blog",
-        href: "https://blog.baka.pw/"
-    },
-    {
-        title: "iosmosis's Blog",
-        href: "https://iosmosis.github.io/"
-    },
-    {
-        titie: "Crazy's Blog",
-        href: "http://www.cra2y.cn"
-    },
-    {
-        title: "A-'s Blog'",
-        href: "http://www.e-wolf.top"
-    },
-    {   
-        title: "fkgeek",
-        href: "http://www.fkgeek.com/"
+        title: "sh1llc0de Blog",
+        href: "https://www.sh1llc0de.xyz/"
     }
 ]
 
