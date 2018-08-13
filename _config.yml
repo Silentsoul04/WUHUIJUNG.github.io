@@ -98,7 +98,7 @@ friends: [
     {
         title: "sh1llc0de Blog",
         href: "https://www.sh1llc0de.xyz/"
-    }
+    } 
 ]
 
 theme: jekyll-theme-slate
