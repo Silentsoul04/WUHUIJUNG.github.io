@@ -1,0 +1,117 @@
+---
+layout: post
+title: python字符串操作
+date: 2018-8-14
+categories: blog
+tags: [python]
+description: 文艺的流氓。
+---
+### 引言 ###
+这是我在看老男孩的视频的时候记录的一些笔记。
+### 操作字符串大小写 ###
+```bash
+a = 'hello,w3rld'
+b = 'HELLO,W3RLD'
+>>>print(a.capitalize())                            # 将字符串的首字母大写
+Hello,w3rld
+>>>print(b.casefold())
+hELLO,W3RLD
+>>>print(a.upper())                                  #将整个字符串大写
+HELLO,W3RLD
+>>>print(b.lower())                                   #将整个字符串小写
+hello,w3rld
+>>>print(b.casefold())                               #同样也是将整个字符串小写
+hello,w3rld
+>>>print(a.swapcase())                              #反转字符串大小写
+HELLO,W3RLD
+#其中有数字也不会有影响
+```
+### 段落格式 ###
+```bash
+b = 'wu hui jun'
+>>>print(b.title())                                        #每一个段落的首字母大写
+Wu Hui Jun
+a = 'wu*hui-jun'
+>>>print(a.title())                                          #只要字符串不是链接在一起的，那么都可以被这样的格式
+Wu*Hui-Jun
+```
+### 居中，填充字符串 ###
+```bash
+a = 'asd\tasd'
+>>>print(a.expandtabs())                            #把\t制表符转换成了TAB
+asd     asd
+a = 'wujinlin'
+>>>print(a.center(20,'*'))                            #把字符串宽度填充。可以自定义填充宽度
+******wujinlin******
+```
+### 查找字符串以什么开头，返回true和false ###
+```bash
+a = 'wujinlin'
+>>>print(a.startswith('wu'))                            #查找字符串是不是wu开头
+True
+>>>print(a.startswith('j',2))                             #查找字符串j从第二个位置开始找
+True
+>>>if a.startswith('wu') == True:                    #用if来判断开头字符
+            print('正确')
+        else:
+            print('错误')
+正确
+```
+### 查找字符串的索引 ###
+```bash
+a = 'wujinlin'
+>>>print(a.find('c'))                                        #find找不到会返回-1
+-1
+>>>print(a.index('l'))                                       #index找不到会报错。
+5
+find更好一点
+```
+### 去除空格 ###
+```bash
+a = ' wujinlin '
+b = '##wujinlin%%'
+>>>print(a.strip())                                            #默认去除首尾空格
+wujinlin
+>>>print(b.strip('#%'))                                    #去除首尾的#%
+wujinlin
+```
+### 查找字符在字符串中出现的次数 ###
+```bash
+a = 'asdadsab'
+>>>print(a.count('a'))                                        #默认是整个字符串一起找
+3
+>>>print(a.count('a',0,5))                                   #从指定的位置开始找
+2
+```
+### 把字符分割成列表 ###
+```bash
+a = 'a:b:c:d'
+b = a.split(':')
+>>>print(b)                                                        #会分割成一个列表
+['a', 'b', 'c', 'd']
+>>>print(b[1])
+b
+```
+### 替换字符串中的内容 ###
+```bash
+s = '吴经理经理经理'
+>>>b = s.replace('经理','精灵')
+>>>c = s.replace('经理','精灵',1)                           #替换一次
+>>>d = s.replace('经理','精灵',2)                           #替换两次
+print(b)
+print(c)
+print(d)
+吴精灵精灵精灵
+吴精灵经理经理
+吴精灵精灵经理
+```
+### 判断字符串是由什么组成 ###
+```bash
+name = 'wujinlin123'
+>>>print(name.isalnum())                                    #检查字符串是不是由字母和字符组成(如果其中有特殊字符串那么返回false)
+True
+>>>print(name.isalpha())                                     #检查字符串是不是由字母组成
+False
+>>>print(name.isdigit())                                       #检查字符串是不是由数字组成
+False
+```
