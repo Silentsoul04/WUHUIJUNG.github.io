@@ -69,11 +69,11 @@ gitalk:
 
 # 统计
 
-Analytics settings
-Baidu Analytics
+# Analytics settings
+# Baidu Analytics
 ba_track_id: 73e97251dc2726667ef106f0023f5435
 
-Google Analytics
+# Google Analytics
 ga_track_id: 'UA-124668190-1'            # Format: UA-xxxxxx-xx
 ga_domain: www.whj.website               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
