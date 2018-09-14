@@ -104,5 +104,5 @@ print(dea)
 ```
 
 #### 献上我画的一张图片(鬼画符)
-![WUJINLIN](http://i2.bvimg.com/660902/f2bbbbcd31c385b6.png)
+[![WUJINLIN](https://s1.ax1x.com/2018/09/14/iEZ6Q1.md.png)](https://imgchr.com/i/iEZ6Q1)
 #### 总结：这个模块我是以前没有接触过的。而且这几种的数据类型我也是没用过的。其中的defaultdict这个默认值的dict可能会经常用到
