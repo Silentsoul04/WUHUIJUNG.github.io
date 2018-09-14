@@ -51,7 +51,7 @@ print(os.path.getsize(os.getcwd()))                   # 返回path的大小
 ```
 
 #### 还有一张我自己做的分类图
-![WUJINLIN](http://i2.bvimg.com/660902/a1fccdf0c27b9437.png)
+![WUJINLIN(https://s1.ax1x.com/2018/09/15/iEv4V1.png)
 
 ### 总结：OS模块主要是对文件的操作。系统命令的使用，还能够判断系统是什么。OS模块对跨平台的作用挺大的
 

@@ -16,21 +16,19 @@ description: 文艺的流氓。
 
 #### NTFS文件系统有安全选项卡功能
  - 那么这时候也能够看的到。文件夹得权限。其中有完全控制，修改，读取和运行，列出文件夹目录，读取，写入。其中还有一个特别的权限。
-![WUJINLIN](http://i1.bvimg.com/660902/63ae7a0c9e5356a2.png)
+![WUJINLIN](https://s1.ax1x.com/2018/09/15/iEvDU0.png)
 
 #### 这个特别的权限和文件夹数据或者是文件得的本身没有关系。就是和这个安全得选项卡有关，直接点击高级就能够看的到。
 #### 点击”编辑“ 就能够看到得Administrator得权限了。可以看到得是Administrator是拥有所有的权限的
-![WUJINLIN](http://i1.bvimg.com/660902/d2197808af1fcef6.png)
+![WUJINLIN](https://s1.ax1x.com/2018/09/15/iEvr5V.png)
 ### 权限的组合。
  - 用户对资源的有效权限是分配给用户帐户的权限和用户所属各个组的累加权限
  - 如果说aaa用户同时存在group1和group2组中。那么他自身的权限也会发现变化.
  - 我把aaa用户放在了group1和group2中.
-![WUJINLIN](http://i1.bvimg.com/660902/c27fcf057ef06325.png)
-![WUJINLIN](http://i1.bvimg.com/660902/efb4b0a747b03b6a.png)
-![WUJINLIN](http://i1.bvimg.com/660902/adfb9092375fb767.png)
+![WUJINLIN](https://s1.ax1x.com/2018/09/15/iEv68U.png)![WUJINLIN](https://s1.ax1x.com/2018/09/15/iEvc2F.png)![WUJINLIN](https://s1.ax1x.com/2018/09/15/iEvgv4.png)
 #### 我登陆aaa用户同样的能够到aaa文件中去写入文件和读取文件.而另外的一个bbb文件夹则是不能够访问.这样的话,就造成了一次,权限的组合.
-![WUJINLIN](http://i1.bvimg.com/660902/9bdd6c7d7460001e.png)
-![WUJINLIN](http://i1.bvimg.com/660902/9f5a3b7ce9e29d6e.png)
+![WUJINLIN(https://s1.ax1x.com/2018/09/15/iEvRKJ.png)![iEvWr9.png](https://s1.ax1x.com/2018/09/15/iEvWr9.png)
+
 #### 通过这个例子知道了权限的组合,让我们明白了就算用户没有任何的权限,但是只要用户组有权限就能够可以创建文件.
 
 ### 权限的拒绝

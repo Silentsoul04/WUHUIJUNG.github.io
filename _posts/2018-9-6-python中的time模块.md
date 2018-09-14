@@ -104,7 +104,7 @@ t1 = time.clock()       # 返回当前CPU的时间
 #### 小结：时间戳是计算机能够识别的时间；时间字符串是人能够看懂的时间；元组则是用来操作时间的
 
 #### 接下来是三种格式中的转换:如果时间戳需要转换成字符串。那么需要通过结构化来进行转换
-![WUJINLIN](http://i1.bvimg.com/660902/ac8157e3c60b7de9.png)
+![WUJINLIN](https://s1.ax1x.com/2018/09/15/iEvmge.png)
 #### 时间戳-->结构化时间
 ```python
 import time
