@@ -48,6 +48,7 @@ print(os.path.isdir(os.getcwd()))                     # 如果path是一个存�
 print(os.path.getatime(os.getcwd()))                  # 返回path所指向的文件或者目录的最后访问时间
 print(os.path.getmtime(os.getcwd()))                  # 返回path所指向的文件或者目录的最后修改时间
 print(os.path.getsize(os.getcwd()))                   # 返回path的大小
+print(os.path.join(filepath,filename)) 								  # 是用来拼接路径的 
 ```
 
 #### 还有一张我自己做的分类图
