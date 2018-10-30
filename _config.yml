@@ -17,10 +17,10 @@ sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in b
 
 
 # SNS settings
-RSS: false
+RSS: true
 
 zhihu_username:     mr-r-67-24
-github_username:    darkeyer
+github_username:    WUJINLIN
 
 
 
