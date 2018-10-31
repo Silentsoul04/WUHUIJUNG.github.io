@@ -98,10 +98,12 @@ friends: [
     {
         title: "sh1llc0de Blog",
         href: "https://www.sh1llc0de.xyz/"
-    },{
+    },
+    {
         title: "zxcvbnmagl Blog",
         href: "https://www.zxcvbnmagl.xyz/"
     }
+]
 
 
 theme: jekyll-theme-slate
