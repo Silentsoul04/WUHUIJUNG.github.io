@@ -9,7 +9,7 @@ description: 文艺的流氓。
 
 #### 刚刚写完了ftp的架设。想试试利用python来进行扫描ftp弱口令
 
-需要使用到ftplib模块(我是使用的python3)
+需要使用到`ftplib`模块(我是使用的`python3`)
 
 一段简单的代码：
 
