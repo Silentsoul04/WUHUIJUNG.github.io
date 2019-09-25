@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Document
+title: Document认识
 date: 2018-5-24
 categories: blog
 tags: [JavaScript]
