@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Document认识
-date: 2018-5-24
+date: 2019-5-24
 categories: blog
 tags: [JavaScript]
 description: 文艺的流氓。
