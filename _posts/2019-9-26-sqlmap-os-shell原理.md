@@ -7,9 +7,9 @@ tags: [WEB]
 description: 文艺的流氓。
 ---
 
-刚好学习完了二次注入,就想知道`sqlmap`的`get  shell`是怎么实现的。
-
 ### 1.环境
+
+**刚好学习完了二次注入,就想知道`sqlmap`的`get  shell`是怎么实现的。**
 
 我自己写一个页面。很简单
 
