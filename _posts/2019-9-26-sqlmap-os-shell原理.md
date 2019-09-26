@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sqlmap --os-shell原理分析
+title: Sqlmap --os-shell Principle analysis
 date: 2018-9-26
 categories: blog
 tags: [WEB]
