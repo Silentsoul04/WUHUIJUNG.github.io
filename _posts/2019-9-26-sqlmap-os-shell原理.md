@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sqlmap --os-shell Principle analysis
+title: Sqlmap--os-shell Principle analysis
 date: 2018-9-26
 categories: blog
 tags: [WEB]
@@ -11,7 +11,7 @@ description: 文艺的流氓。
 
 **刚好学习完了二次注入,就想知道`sqlmap`的`get  shell`是怎么实现的。**
 
-我自己写一个页面。很简单
+我自己写一个页面。很简单。
 
 - config.php
 
