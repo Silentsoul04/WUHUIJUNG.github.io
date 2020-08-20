@@ -4,7 +4,7 @@ SEOTitle: WUJINLIN的博客 | WUJINLIN
 header-img: img/post-bg-desk.jpg
 email: 
 description: "The beginning of every failure is success."
-keyword: "WUJINLIN, WHJ的博客,CTF, WEB"
+keyword: "WUJINLIN,CTF, WEB"
 url: "http://WUHUIJUNG.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/SecWiki/ctf-hub" # you code repository
@@ -75,7 +75,7 @@ ba_track_id: 73e97251dc2726667ef106f0023f5435
 
 # Google Analytics
 ga_track_id: 'UA-124668190-1'            # Format: UA-xxxxxx-xx
-ga_domain: www.whj.website               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -94,12 +94,12 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "zxcvbnmagl Blog",
-        href: "https://www.zxcvbnmagl.xyz/"
-    }
-]
+#friends: [
+#    {
+#        title: "zxcvbnmagl Blog",
+#        href: "https://www.zxcvbnmagl.xyz/"
+#    }
+#]
 
 
 theme: jekyll-theme-slate
