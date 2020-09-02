@@ -94,12 +94,10 @@ service-worker: true
 
 
 # Friends
-#friends: [
-#    {
-#        title: "zxcvbnmagl Blog",
-#        href: "https://www.zxcvbnmagl.xyz/"
-#    }
-#]
+friends: [
+    {
+    }
+]
 
 
 theme: jekyll-theme-slate
